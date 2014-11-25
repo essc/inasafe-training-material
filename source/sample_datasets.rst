@@ -5,7 +5,7 @@ Sample Datasets
 The following sample datasets will be used for the exercises. The data sets come 
 from several data sources both within ESSC and external sources.  
 
-Quiapo
+Tacloban
 ---------------
 
 

@@ -237,9 +237,9 @@ fetch your flood data.  Please select the
 
 This is a raster data (in GTiff format) that represents flooding in categorical form in 
 Tacloban area for a return period of 100 years. Adding style on raster.
-Right click on the `flood_5yr` the select `Properties`. On `Style` tab,
+Right click on the `Tacloban Flood Hazard (100yr)` the select `Properties`. On `Style` tab,
 click `Load Style ...` Use the `noah-Leyte_TaclobanCity_Flood_100year.qml` as your 
-raster style.  file from the :file:`~/quiapo/raster/flood`.
+raster style.  file from the :file:`~/inasafe_data_ph/hazard`.
 
 .. image:: images/inasafe/load_style.png
    :align: center
@@ -392,7 +392,7 @@ the minimum needs.
    :align: center
    :width: 300 pt
 
-First, add a profile for the minimum needs. Click, `New ...`
+First, add a profile for the minimum needs. Click, **`New ...`**
 
 .. image:: images/inasafe/add_new_profile.png
    :align: center
@@ -404,14 +404,14 @@ Then, add File name on the textbox and choose where you will save the profile.
    :align: center
    :width: 300 pt
 
-Now, user can add minimum needs on their profile by clicking `+` button
+Now, user can add minimum needs on their profile by clicking **"+"** button
 
 .. image:: images/inasafe/min_needs.png
    :align: center
    :width: 300 pt
 
 User can also delete and edit a certain minimum needs by clicking the chosen
-minimum needs, `-` button means to delete and `E` button means to edit.
+minimum needs, **"-"** button means to delete and **"E"** button means to edit.
 
 .. image:: images/inasafe/min_needs.png
    :align: center
@@ -517,8 +517,8 @@ Further exercise
 Using the data in your inasafe_data_ph directory answer the following questions with
 Inasafe:
 
-* In case of **landslide** event, how many **be impacted by each category**?
-* In case of **landslide** event, how many **be affected by each category**?
+* In case of **landslide** event, how many **buildings** might **be impacted by each category**?
+* In case of **landslide** event, how many **people** might **be affected by each category**?
 
 Explore the other features of InaSAFE.
 
