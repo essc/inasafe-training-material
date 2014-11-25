@@ -303,17 +303,16 @@ because our data represents which category of flood level in Tacloban are affect
 
 Now the data follow the keyword rule, and can be used in the InaSAFE function.
 
-Exposure
+Exposure in Vector form
 ........
 
-Exposure is the sum of assets and population that are at risks.
+Exposure is the sum of assets that are at risks.
 
 An exposure (How many) layer could be represented, for example, as vector
-polygon data representing building outlines, or a raster outline where each
-pixel represents the number of people resident in that cell.
+polygon data representing building outlines.
 
 Now, we will add the exposure layer in our InaSAFE project. For that, we need
-to add the exposure layer to QGIS first. For our exercise, we will use the
+to add the exposure layer to QGIS first. For our first exercise, we will use the
 data that represents buildings.
 
 1. The OSM building layer is in a vector format, so we will go to the QGIS menu
@@ -380,52 +379,6 @@ who are affected by flood.
    :align: center
    :width: 300 pt
 
-Now, new interface of minimum needs allow the user to select pre-defined minimum needs 
-(such as rice, water, etc.) with configurable amounts per person. Users also be allowed to add 
-new needs (e.g., potatoes, tent, etc.) with associated amounts and frequency how long does 
-resource needs be provided (e.g., daily, weekly, etc.)
-
-There is a new toolbar `InaSAFE Global Minimum Needs Configuration` for customizing
-the minimum needs. 
-
-.. image:: images/inasafe/min_needs_toolbar.png
-   :align: center
-   :width: 300 pt
-
-First, add a profile for the minimum needs. Click, **`New ...`**
-
-.. image:: images/inasafe/add_new_profile.png
-   :align: center
-   :width: 300 pt
-
-Then, add File name on the textbox and choose where you will save the profile.
-
-.. image:: images/inasafe/min_needs.png
-   :align: center
-   :width: 300 pt
-
-Now, user can add minimum needs on their profile by clicking **"+"** button
-
-.. image:: images/inasafe/min_needs.png
-   :align: center
-   :width: 300 pt
-
-User can also delete and edit a certain minimum needs by clicking the chosen
-minimum needs, **"-"** button means to delete and **"E"** button means to edit.
-
-.. image:: images/inasafe/min_needs.png
-   :align: center
-   :width: 300 pt
-
-Click `Save` and `Close`
-
-Go back to `Minimum Needs` tab in `Options` and your profile for
-minimum needs will be loaded.
-
-.. image:: images/inasafe/min_needs.png
-   :align: center
-   :width: 300 pt
-
 Impact Analysis
 ...............
 
@@ -456,11 +409,11 @@ non-affected building.
    :align: center
    :width: 300 pt
 
-2. The result shows **Total Population Affected** and the 
-**Minimum Needs for the evacuated people** in the event of a flood. 
+2. The result shows **Total Number of Buildings** and the
+**Number of buildings that might be temporarily closed** in the event of a flood. 
 Also, there is an **Action Checklist** where the question: 
-*Do we have enough relief items?* And a **Note** description explaining 
-how many people are in high, medium and low hazard areas.
+*Which buildings will be evacuation centres?* And a **Note** description explaining 
+`Map shows buildings affected in low, medium and high risk areas.`
  
 Print Results
 .............
@@ -480,6 +433,67 @@ displayed.
 .. image:: images/inasafe/inasafe_pdf_output.png
    :align: center
    :width: 500 pt
+
+Exposure in Raster form
+............................
+
+An exposure (How many) layer could be represented, for example, as raster
+ data representing population. For our second exercise, we will use the data
+that represents population. A raster outline where each pixel represents the
+number of people resident in that cell.
+
+1. The Population layer is in a raster format, so we will go to the QGIS menu
+toolbar, click on :menuselection:`Layer --> Add Raster Layer`.
+
+Please note that the exposure data should follow the same keyword system
+that we explained earlier for the hazard data.
+
+We will create it by using the :guilabel:`Keyword Editor`.
+
+2. Go to the :menuselection:`Plugin --> InaSAFE --> Keyword Editor` in the dialog box. 
+Pinpoint the :guilabel:`Exposure` category.
+
+3. Choose :guilabel:`population` in the :guilabel:`Subcategory` scroll box. Click 
+:guilabel:`OK`.
+
+.. image:: images/inasafe/inasafe_exposure_keyword.png
+   :align: center
+   :width: 300 pt
+
+Now our population exposure data can be used in InaSAFE and was automatically
+entered in the :guilabel:`How many` box of the InaSAFE dock panel.
+
+Aggregation
+................
+
+Impact layers produced by InaSAFE can either be raster or vector type
+(depending on the exposure data used as input). When doing an aggregation,
+each feature in the intermediate layer will contain the result of the aggregation.
+The way the aggregation is calculated depend on the type of the impact layer and
+on the impact function that was used to produce the impact layer.
+
+1. The aggregation layer is in a vector layer, so we will go to the QGIS menu
+toolbar, click on :menuselection:`Layer --> Add Vector Layer`.
+
+Aggregation layer are usually represents Administrative boundaries. We will going
+to modify it using the :guilabel:`Keyword Editor`.
+
+2. Go to the :menuselection:`Plugin --> InaSAFE --> Keyword Editor` in the dialog box. 
+Pinpoint the :guilabel:`Postprocessing` category.
+
+.. image:: images/inasafe/inasafe_exposure_keyword.png
+   :align: center
+   :width: 300 pt
+
+3. Go to `Aggregation` tab, choose :guilabel:`NAME_3` in the
+:guilabel:`Aggregation attribute` scroll box Click :guilabel:`OK`.
+
+.. image:: images/inasafe/inasafe_exposure_keyword.png
+   :align: center
+   :width: 300 pt
+
+:guilabel:`NAME_3` represents boundary for each Barangay, affected population
+will be aggregated by barangay.
 
 Save results and QGIS project
 .............................
