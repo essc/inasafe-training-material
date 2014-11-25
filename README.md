@@ -1,4 +1,7 @@
 inasafe-training-material
-=========================
+===================
 
-Training material how to use InaSAFE
+QGIS and InaSAFE Training Material
+November 2014
+
+Live build here: https://readthedocs.org/builds/inasafe-training-material/
