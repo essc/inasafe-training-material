@@ -1,26 +1,12 @@
 .. draft (mark as complete when complete)
 
 =====================
-About this document
+About this workshop
 =====================
 
-This document was designed as a supplementary material for the 
-"QGIS and InaSAFE Workshop" under the "**Participatory mapping 
-and LGU decision support tools for Disaster Risk Reduction**"
-in partnership with the Department of Interior and Local Government, 
-World Bank-East Asia Pacific and East Asia-AusAid Infrastructure for 
-Growth program, OpenStreetMap-Philippines  and the municipalities of 
-of Candaba, Guagua, and Lubao, all in the province of Pampanga.
+This workshop will provide training on participatory mapping and InaSAFE support to the 
+users who are involved in disaster risk reduction activities through these strategies:
 
-About the Project
------------------------------------------
-
-The project will provide training on participatory mapping and InaSAFE support to the 
-Philippine government in disaster risk reduction activities through these strategies:
-
-* Supporting the growth of the OpenStreetMap community that has competence in leveraging 
-  participatory mapping methods with OpenStreetMap tools and Web-based map platforms and 
-  is a proven effective approach to community engagement and in obtaining data
 * Supporting the customization of InaSAFE that will leverage the InaSAFE initiative 
   with the decision support tool component of the project, having been developed and 
   implemented in Indonesia so far. The Department of Interior and Local Government 
@@ -29,8 +15,6 @@ Philippine government in disaster risk reduction activities through these strate
 
 At the end of the workshop, the participants should be able to: 
 
-* Understand the basic principles of how QGIS 2.0 works; 
-* Learn how to edit their existing dataset using QGIS;
 * Understand the basic functionality of InaSAFE;
 * Formulate a better land use and disaster risk reduction and management plans through 
   the help of InaSAFE impact function results that may be later implemented in their 
@@ -75,8 +59,9 @@ Conventions used
 
 Corrections and feedback
 ------------------------
-For corrections and feedback, contact Maning Sambale 
-``emmanuelsambale@essc.org.ph``
+For corrections and feedback, contact:
+* Maning Sambale ``emmanuelsambale@essc.org.ph``
+* Dianne Bencito ``diannebencito@essc.org.ph``
 
 
 License of this document
@@ -84,7 +69,7 @@ License of this document
 Except where otherwise noted, content of this is licensed under
 **GNU Free Documentation License**.
  
-Copyright (c)  2013  Environmental Science for Social Change.
+Copyright (c)  2014  Environmental Science for Social Change.
 
 Permission is granted to copy, distribute and/or modify this document under 
 the terms of the GNU Free Documentation License, Version 1.3 or any later 
