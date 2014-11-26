@@ -566,7 +566,7 @@ Click `Save` and `Close`
 5. Go back to `Minimum Needs` tab in `Options` and your profile for
 minimum needs will be loaded.
 
-.. image:: images/inasafe/min_needs1.png
+.. image:: images/inasafe/min-needs1.png
    :align: center
    :width: 300 pt
 
@@ -591,7 +591,7 @@ layer.
    :align: center
    :width: 300 pt
 
-2. :guilabel:`Save As` a shapefile. A new message box will appear,
+2. Click :guilabel:`Save As` to save it as a shapefile. A new message box will appear,
 click `Browse` button then choose what directory to be used for saving. However the
 keywords and statistics do not get saved.
 
@@ -602,6 +602,8 @@ keywords and statistics do not get saved.
 .. image:: images/inasafe/save_as_vector.png
    :align: center
    :width: 300 pt
+
+Right click on the result layer and Click :guilabel:`Save As` to save it as a raster.
 
 .. image:: images/inasafe/save_as1.png
    :align: center
