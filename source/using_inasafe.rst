@@ -591,7 +591,7 @@ layer.
    :align: center
    :width: 300 pt
 
-2. Then :guilabel:`Save As` a shapefile or a raster. A new message box will appear,
+2. :guilabel:`Save As` a shapefile. A new message box will appear,
 click `Browse` button then choose what directory to be used for saving. However the
 keywords and statistics do not get saved.
 
@@ -599,11 +599,22 @@ keywords and statistics do not get saved.
    :align: center
    :width: 300 pt
 
-.. image:: images/inasafe/inasafe_save_as_vector2.png
+.. image:: images/inasafe/save_as_vector.png
    :align: center
    :width: 300 pt
 
-3. You can also save the project under QGIS so that you can access your current
+.. image:: images/inasafe/save_as1.png
+   :align: center
+   :width: 300 pt
+
+.. image:: images/inasafe/save_as_raster.png
+   :align: center
+   :width: 300 pt
+
+3. :guilabel:`Save As` a raster. A new message box will appear,
+click `Browse` button then choose what directory to be used for saving.
+
+4. You can also save the project under QGIS so that you can access your current
 window view anytime needed. 
 
 Now that the project is saved under QGIS, you can go back to your work anytime
