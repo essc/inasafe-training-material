@@ -137,10 +137,6 @@ Enable InaSAFE Plugin in QGIS
 .............................
 1. Now you will need to add the InaSAFE panel on your QGIS interface. For that,
 select :menuselection:`Toggle InaSAFE Dock` in the InaSAFE plugin scroll list.
-
-.. image:: images/inasafe/inasafe_plugin_toggle.png
-   :align: center
-   :width: 300 pt
  
 The InaSAFE dock panel will then appear on the right of your QGIS window.
 

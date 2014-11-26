@@ -21,7 +21,11 @@ this:
 
 .. image:: images/inasafe/inasafe_plugin_option.png
    :align: center
-   :width: 500 pt
+   :width: 300 pt
+
+.. image:: images/inasafe/inasafe_plugin_option1.png
+   :align: center
+   :width: 300 pt
 
 As you can see this dialog is divided into four tabs namely:
 
