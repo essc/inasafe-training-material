@@ -237,7 +237,7 @@ fetch your flood data.  Please select the
 
 This is a raster data (in GTiff format) that represents flooding in categorical form in 
 Tacloban area for a return period of 100 years. Adding style on raster.
-Right click on the `Tacloban Flood Hazard (100yr)` the select `Properties`. On `Style` tab,
+Right click on the `Tacloban Flood Hazard (100yr)` then select `Properties`. On `Style` tab,
 click `Load Style ...` Use the `noah-Leyte_TaclobanCity_Flood_100year.qml` as your 
 raster style.  file from the :file:`~/inasafe_data_ph/hazard`.
 
@@ -456,7 +456,7 @@ Pinpoint the :guilabel:`Exposure` category.
 3. Choose :guilabel:`population` in the :guilabel:`Subcategory` scroll box. Click 
 :guilabel:`OK`.
 
-.. image:: images/inasafe/inasafe_exposure_keyword.png
+.. image:: images/inasafe/keyword-population.png
    :align: center
    :width: 300 pt
 
@@ -481,14 +481,14 @@ to modify it using the :guilabel:`Keyword Editor`.
 2. Go to the :menuselection:`Plugin --> InaSAFE --> Keyword Editor` in the dialog box. 
 Pinpoint the :guilabel:`Postprocessing` category.
 
-.. image:: images/inasafe/inasafe_exposure_keyword.png
+.. image:: images/inasafe/keyword-postprocessing.png
    :align: center
    :width: 300 pt
 
 3. Go to `Aggregation` tab, choose :guilabel:`NAME_3` in the
 :guilabel:`Aggregation attribute` scroll box Click :guilabel:`OK`.
 
-.. image:: images/inasafe/inasafe_exposure_keyword.png
+.. image:: images/inasafe/keywords-aggregation.png
    :align: center
    :width: 300 pt
 
@@ -516,22 +516,26 @@ resource needs be provided (e.g., daily, weekly, etc.).
    :align: center
    :width: 300 pt
 
-3. Add File name on the textbox and choose where you will save the profile.
+3. Add file name on the textbox and choose where you will save the profile.
 
-.. image:: images/inasafe/min_needs.png
+.. image:: images/inasafe/filename-min-needs.png
    :align: center
    :width: 300 pt
 
-4. Add minimum needs on their profile by clicking **`+`** button
+4. Add minimum needs on their profile by clicking **+** button
 
-.. image:: images/inasafe/min_needs.png
+.. image:: images/inasafe/add-minneeds.png
    :align: center
    :width: 300 pt
 
 User can also delete and edit a certain minimum needs by clicking the chosen
-minimum needs, **"-"** button means to delete and **`E`** button means to edit.
+minimum needs, **-** button means to delete and **E** button means to edit.
 
-.. image:: images/inasafe/min_needs.png
+.. image:: images/inasafe/rem-minneeds.png
+   :align: center
+   :width: 300 pt
+
+.. image:: images/inasafe/edit-minneeds.png
    :align: center
    :width: 300 pt
 
@@ -540,7 +544,7 @@ Click `Save` and `Close`
 5. Go back to `Minimum Needs` tab in `Options` and your profile for
 minimum needs will be loaded.
 
-.. image:: images/inasafe/min_needs.png
+.. image:: images/inasafe/min_needs1.png
    :align: center
    :width: 300 pt
 
