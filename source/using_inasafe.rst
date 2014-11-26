@@ -495,6 +495,55 @@ Pinpoint the :guilabel:`Postprocessing` category.
 :guilabel:`NAME_3` represents boundary for each Barangay, affected population
 will be aggregated by barangay.
 
+Global Minimum Needs Configuration
+.................................
+
+New interface of minimum needs allow the user to select pre-defined minimum needs 
+(such as rice, water, etc.) with configurable amounts per person. Users also be allowed to add 
+new needs (e.g., potatoes, tent, etc.) with associated amounts and set frequency how long does 
+resource needs be provided (e.g., daily, weekly, etc.).
+
+
+1. Added new toolbar icon for Global Minimum Needs Configuration.
+
+.. image:: images/inasafe/min_needs_toolbar.png
+   :align: center
+   :width: 300 pt
+
+2. Add a profile for the minimum needs. Click, **`New ...`**
+
+.. image:: images/inasafe/add_new_profile.png
+   :align: center
+   :width: 300 pt
+
+3. Add File name on the textbox and choose where you will save the profile.
+
+.. image:: images/inasafe/min_needs.png
+   :align: center
+   :width: 300 pt
+
+4. Add minimum needs on their profile by clicking **`+`** button
+
+.. image:: images/inasafe/min_needs.png
+   :align: center
+   :width: 300 pt
+
+User can also delete and edit a certain minimum needs by clicking the chosen
+minimum needs, **"-"** button means to delete and **`E`** button means to edit.
+
+.. image:: images/inasafe/min_needs.png
+   :align: center
+   :width: 300 pt
+
+Click `Save` and `Close`
+
+5. Go back to `Minimum Needs` tab in `Options` and your profile for
+minimum needs will be loaded.
+
+.. image:: images/inasafe/min_needs.png
+   :align: center
+   :width: 300 pt
+
 Save results and QGIS project
 .............................
 
