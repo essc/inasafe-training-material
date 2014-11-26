@@ -16,7 +16,6 @@ Contents
    About <about.rst>
    Basic GIS using QGIS <intro_qgis_course.rst>
    InaSAFE Basics <concept_inasafe.rst>
-   Data Enhancement<customizing_layer.rst>
    References <references.rst>
    GNU Free Documentation License <gfdl.rst>
 
