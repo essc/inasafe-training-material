@@ -463,6 +463,13 @@ Pinpoint the :guilabel:`Exposure` category.
 Now our population exposure data can be used in InaSAFE and was automatically
 entered in the :guilabel:`How many` box of the InaSAFE dock panel.
 
+4. Click on the :guilabel:`Run` button at the bottom to start the impact
+analysis. 
+
+.. image:: images/inasafe/result-population.png
+   :align: center
+   :width: 300 pt
+
 Aggregation
 ................
 
@@ -492,8 +499,21 @@ Pinpoint the :guilabel:`Postprocessing` category.
    :align: center
    :width: 300 pt
 
+4. On the InaSAFE dock, choose :guilabel:`Tacloban Barangay Boundaries` as aggregator.
+
+.. image:: images/inasafe/aggregation-dock.png
+   :align: center
+   :width: 300 pt
+
 :guilabel:`NAME_3` represents boundary for each Barangay, affected population
 will be aggregated by barangay.
+
+5. Click on the :guilabel:`Run` button at the bottom to start the impact
+analysis. 
+
+.. image:: images/inasafe/aggregation-result.png
+   :align: center
+   :width: 300 pt
 
 Global Minimum Needs Configuration
 .................................
@@ -522,6 +542,8 @@ resource needs be provided (e.g., daily, weekly, etc.).
    :align: center
    :width: 300 pt
 
+Click `Save`
+
 4. Add minimum needs on their profile by clicking **+** button
 
 .. image:: images/inasafe/add-minneeds.png
@@ -545,6 +567,17 @@ Click `Save` and `Close`
 minimum needs will be loaded.
 
 .. image:: images/inasafe/min_needs1.png
+   :align: center
+   :width: 300 pt
+
+6. Click on the :guilabel:`Run` button at the bottom to start the impact
+analysis. Then, :guilabel:`Print`
+
+.. image:: images/inasafe/glob-aggr-min-needs.png
+   :align: center
+   :width: 300 pt
+
+.. image:: images/inasafe/global-aggr-result.png
    :align: center
    :width: 300 pt
 
