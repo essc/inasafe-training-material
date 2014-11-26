@@ -14,7 +14,6 @@ Contents
    :maxdepth: 2
    
    About <about.rst>
-   Basic GIS using QGIS <intro_qgis_course.rst>
    InaSAFE Basics <concept_inasafe.rst>
    References <references.rst>
    GNU Free Documentation License <gfdl.rst>
