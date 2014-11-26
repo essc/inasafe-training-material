@@ -2,7 +2,7 @@
 .. uncomment completed rst documents
 
 =============================================================
-QGIS and InaSAFE Training
+InaSAFE Training
 =============================================================
 
 
@@ -15,6 +15,8 @@ Contents
    
    About <about.rst>
    InaSAFE Basics <concept_inasafe.rst>
+   Install InaSAFE <install_inasafe.rst>
+   How to Use InaSAFE?<using_inasafe.rst>
    References <references.rst>
    GNU Free Documentation License <gfdl.rst>
 

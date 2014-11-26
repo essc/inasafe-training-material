@@ -37,7 +37,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'InaSAFE Workshop (FOSS4G-PH 2014)'
+project = u'InaSAFE Workshop 2014'
 copyright = u'2014, ESSC license under GNU Free Document License'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -311,6 +311,7 @@ rst_epilog = """
                          :width: 20 pt
 .. |keyword_editor| image:: images/inasafe_icons/show-keyword-editor.png
                          :width: 20 pt
+.. |project_name| replace:: InaSAFE
 
 """
 

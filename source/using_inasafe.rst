@@ -1,5 +1,5 @@
 =======================================
-Using InaSAFE
+How to Use InaSAFE?
 =======================================
 
 InaSAFE Options
@@ -21,7 +21,7 @@ this:
 
 .. image:: images/inasafe/inasafe_plugin_option.png
    :align: center
-   :width: 300 pt
+   :width: 500 pt
 
 As you can see this dialog is divided into four tabs namely:
 
@@ -257,7 +257,7 @@ data in InaSAFE.
   if the layer is a hazard or if it is an exposure.
 * The area of analysis should overlap.
 
-Adding keyword metadata
+Adding Keyword Metadata
 .......................
 
 You may be wondering how the InaSAFE plugin determines whether a layer should
@@ -285,10 +285,6 @@ Or, open the :menuselection:`Plugin` menu on QGIS toolbar, click on
 :menuselection:`InaSAFE`, then click
 on the :menuselection:`Keyword Editor` in the scroll list.
 
-.. image:: images/inasafe/inasafe_keyword_editor_menu.png
-   :align: center
-   :width: 300 pt
-
 2. Once you click on the :guilabel:`Keyword Editor`, a dialog box containing the flood data
 will be prompted. Since the flood data is a hazard layer, pinpoint the
 :guilabel:`Hazard` Category. In the Subcategory, we will choose :guilabel:`flood [categorised]` 
@@ -303,7 +299,7 @@ because our data represents which category of flood level in Tacloban are affect
 
 Now the data follow the keyword rule, and can be used in the InaSAFE function.
 
-Exposure in Vector form
+Setting Exposure in Vector Form
 ........
 
 Exposure is the sum of assets that are at risks.
@@ -340,7 +336,7 @@ entered in the :guilabel:`How many` box of the InaSAFE dock panel.
    :align: center
    :width: 300 pt
 
-Impact Function Configuration
+Configuring Impact Function
 ...............
 
 This configuration has a 2 to 3 tabs which are `Options, Postprocessors and Minimum Needs`
@@ -395,7 +391,7 @@ temporarily closed?** As we see on the previous step, this is filled
 automatically by default in the InaSAFE panel dock as soon as the hazard
 [flood] and exposure [buildings] layers are entered correctly.
 
-The Results section
+The Results Section
 ...................
 
 1. Now that we have our two input layers and that we know what impacts we would
@@ -434,7 +430,7 @@ displayed.
    :align: center
    :width: 500 pt
 
-Exposure in Raster form
+Setting Exposure in Raster Form
 ............................
 
 An exposure (How many) layer could be represented, for example, as raster
@@ -470,7 +466,7 @@ analysis.
    :align: center
    :width: 300 pt
 
-Aggregation
+Modifying Aggregation
 ................
 
 Impact layers produced by InaSAFE can either be raster or vector type
@@ -503,7 +499,7 @@ Pinpoint the :guilabel:`Postprocessing` category.
 
 .. image:: images/inasafe/aggregation-dock.png
    :align: center
-   :width: 300 pt
+   :width: 250 pt
 
 :guilabel:`NAME_3` represents boundary for each Barangay, affected population
 will be aggregated by barangay.
@@ -515,14 +511,13 @@ analysis.
    :align: center
    :width: 300 pt
 
-Global Minimum Needs Configuration
+Configuring Minimum Needs
 .................................
 
-New interface of minimum needs allow the user to select pre-defined minimum needs 
-(such as rice, water, etc.) with configurable amounts per person. Users also be allowed to add 
-new needs (e.g., potatoes, tent, etc.) with associated amounts and set frequency how long does 
-resource needs be provided (e.g., daily, weekly, etc.).
-
+Global Minimum Needs Configuration is a new interface of minimum needs allowing the user
+to select pre-defined minimum needs (such as rice, water, etc.) with configurable amounts per
+person. Users also be allowed to add new needs (e.g., potatoes, tent, etc.) with associated
+amounts and set frequency how long does resource needs be provided (e.g., daily, weekly, etc.).
 
 1. Added new toolbar icon for Global Minimum Needs Configuration.
 
@@ -581,17 +576,11 @@ analysis. Then, :guilabel:`Print`
    :align: center
    :width: 300 pt
 
-Save results and QGIS project
+Save Results and QGIS project
 .............................
 
 1. The output layer result of the assessment can be saved by right clicking on the
-layer.
-
-.. image:: images/inasafe/inasafe_save_as_vector1.png
-   :align: center
-   :width: 300 pt
-
-2. Click :guilabel:`Save As` to save it as a shapefile. A new message box will appear,
+layer. Click :guilabel:`Save As` to save it as a shapefile. A new message box will appear,
 click `Browse` button then choose what directory to be used for saving. However the
 keywords and statistics do not get saved.
 
@@ -603,7 +592,8 @@ keywords and statistics do not get saved.
    :align: center
    :width: 300 pt
 
-Right click on the result layer and Click :guilabel:`Save As` to save it as a raster.
+2. To save it as a raster. right click on the result layer and Click :guilabel:`Save As`.
+A new message box will appear, click `Browse` button then choose what directory to be used for saving.
 
 .. image:: images/inasafe/save_as1.png
    :align: center
@@ -613,10 +603,7 @@ Right click on the result layer and Click :guilabel:`Save As` to save it as a ra
    :align: center
    :width: 300 pt
 
-3. :guilabel:`Save As` a raster. A new message box will appear,
-click `Browse` button then choose what directory to be used for saving.
-
-4. You can also save the project under QGIS so that you can access your current
+3. You can also save the project under QGIS so that you can access your current
 window view anytime needed. 
 
 Now that the project is saved under QGIS, you can go back to your work anytime
