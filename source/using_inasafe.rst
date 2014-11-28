@@ -27,7 +27,7 @@ this:
    :align: center
    :width: 300 pt
 
-As you can see this dialog is divided into four tabs namely:
+This dialog is divided into four tabs namely:
 
 * `Basic Options`
 * `Template Options`
@@ -148,7 +148,7 @@ Advanced
 .. note:: The exact button order shown on this dialog may differ depending on
    your operating system or desktop environment.
 
-Adjust Projection
+Adjusting Projection
 .................
 
 Before continuing we need to turn one more QGIS functionality on, to enable all
@@ -261,7 +261,7 @@ data in InaSAFE.
   if the layer is a hazard or if it is an exposure.
 * The area of analysis should overlap.
 
-Adding Keyword Metadata
+Adding the Keyword Metadata
 .......................
 
 You may be wondering how the InaSAFE plugin determines whether a layer should
@@ -303,7 +303,7 @@ because our data represents which category of flood level in Tacloban are affect
 
 Now the data follow the keyword rule, and can be used in the InaSAFE function.
 
-Setting Exposure in Vector Form
+Setting Exposure in Vector Format
 ........
 
 Exposure is the sum of assets that are at risks.
@@ -434,7 +434,7 @@ displayed.
    :align: center
    :width: 500 pt
 
-Setting Exposure in Raster Form
+Setting Exposure in Raster Format
 ............................
 
 An exposure (How many) layer could be represented, for example, as raster
@@ -470,7 +470,7 @@ analysis.
    :align: center
    :width: 300 pt
 
-Modifying Aggregation
+Using the Aggregation layer
 ................
 
 Impact layers produced by InaSAFE can either be raster or vector type

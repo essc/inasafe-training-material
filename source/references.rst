@@ -13,10 +13,7 @@ Contributors
 ChangeLogs
 ---------------
 
-This document is version |version| as of |today|.  Major changes are:
-
-.. include:: log.txt
-   :literal:
+This document is version |version| as of |today|.  
 
 .. raw:: latex
    

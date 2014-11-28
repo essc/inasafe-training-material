@@ -4,22 +4,20 @@
 About this workshop
 =====================
 
-This workshop will provide training on participatory mapping and InaSAFE support to the 
-users who are involved in disaster risk reduction activities through these strategies:
-
-* Supporting the customization of InaSAFE that will leverage the InaSAFE initiative 
-  with the decision support tool component of the project, having been developed and 
-  implemented in Indonesia so far. The Department of Interior and Local Government 
-  identified InaSAFE’s potential in assisting local governments design their contingency 
-  and land use plans.
+This workshop is a basic introduction to using InaSAFE.  New features from the next version
+(2.2) will be introduced specifically those applicable to the Philippine situation.
 
 At the end of the workshop, the participants should be able to: 
 
-* Understand the basic functionality of InaSAFE;
-* Formulate a better land use and disaster risk reduction and management plans through 
-  the help of InaSAFE impact function results that may be later implemented in their 
-  respective municipality.
+* understand the basic functionality of InaSAFE;
+* learn how to prepare the data to be able to use it in InaSAFE;
+* perform a risk scenario using Philippine flood and landslide data;
+* analyze estimated impact of the example scenarios;
+* learn how to print and save the result of the simulation.
+* use the advanced features of the application which will be available in the future version of InaSAFE.
 
+This workshop is available at: https://github.com/essc/inasafe-training-material
+Sample data used in this workshop is available at: https://github.com/essc/inasafe_data_ph
 
 About ESSC 
 ----------

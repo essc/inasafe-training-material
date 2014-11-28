@@ -9,10 +9,6 @@ InaSAFE is a plugin for QGIS. It aims to produce realistic natural
 hazard impact scenarios for better planning, preparedness and response
 activities, using hazard and exposure geographic data.  
 
-During this training, you will explore the different components of
-InaSAFE plugin and their usage for an easy-to-use risk and impact scenarios
-assessments. 
-
 Concept
 -----------
 
@@ -38,13 +34,6 @@ the impacts by a single hazard would have on specific sectors.
 .. image:: images/inasafe/inasafe_chart.png
    :align: center
    :width: 450 pt
-
-At the end of this material, you will be able to:
-
-* learn how to prepare the data to be able to use it in InaSAFE;
-* perform a risk scenario using flood and earthquake data;
-* analyze estimated impact of the example scenarios;
-* learn how to print and save the result of the simulation.
 
 .. raw:: latex
    
